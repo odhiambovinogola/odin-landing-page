@@ -163,7 +163,7 @@ a {
   flex: 1 1 250px;
 }
 
-.features__icon img {
+.icon {
   border: 4px solid #00b8e6;
   border-radius: 10px;
   width: 4rem;
