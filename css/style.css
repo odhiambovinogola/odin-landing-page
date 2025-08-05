@@ -175,3 +175,34 @@ a {
   font-size: 16px;
   color: #666;
 }
+
+/* === REVIEWS SECTION STYLES === */
+
+.reviews {
+  background-color: #e5e7eb;
+  padding-block: 4rem;
+}
+
+.blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 5px solid #00b8e6;
+  padding-left: 1.5rem;
+}
+
+.blockquote__text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.blockquote__author {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
