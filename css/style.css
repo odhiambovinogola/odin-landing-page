@@ -23,7 +23,7 @@
 }
 
 body {
-  background: #1f2937;
+  background-color: #1f2937;
   font-family: "Inter", sans-serif;
 }
 
@@ -40,10 +40,10 @@ a {
   text-decoration: none;
 }
 
-.site-logo a {
+.logo {
   font-family: "Caveat", cursive;
   color: #00d4ff;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -51,12 +51,12 @@ a {
 .nav__list {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .nav__link {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -86,36 +86,14 @@ a {
 }
 
 .hero__headline {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   color: #f9faf8;
 }
 
 .hero__description {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #e5e7eb;
-}
-
-.btn {
-  display: inline-block; /* keeps it from stretching accidentally. */
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 0.5rem 2rem;
-}
-
-.btn--primary {
-  background-color: #00b8e6;
-  border: none;
-}
-
-.btn--primary:hover {
-  background-color: #009fc9;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .hero__media {
@@ -133,6 +111,45 @@ a {
   padding: 0.5rem;
 }
 
+/* === BUTTON BASE === */
+
+.btn {
+  display: inline-block; /* keeps it from stretching accidentally. */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+}
+
+/* === PRIMARY BUTTON === */
+
+.btn--primary {
+  background-color: #00b8e6;
+  border: none;
+}
+
+.btn--primary:hover {
+  background-color: #009fc9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* === SECONDARY BUTTON === */
+
+.btn--secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn--secondary:hover {
+  background-color: #fff;
+  color: #009fc9;
+}
+
 /* === FEATURES SECTION STYLES === */
 
 .features {
@@ -143,7 +160,7 @@ a {
 .features__headline {
   text-align: center;
   margin-bottom: 2rem;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #1f2937;
   font-weight: 900;
   line-height: 1.2;
@@ -175,7 +192,7 @@ a {
 }
 
 .features__description {
-  font-size: 16px;
+  font-size: 1rem;
   color: #666;
 }
 
@@ -197,14 +214,14 @@ a {
 }
 
 .blockquote__text {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
 }
 
 .blockquote__author {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   font-style: normal;
   text-align: right;
@@ -230,16 +247,6 @@ a {
 
 .cta__description {
   color: #e5e7eb;
-}
-
-.btn--secondary {
-  background-color: transparent;
-  border: 2px solid #fff;
-}
-
-.btn--secondary:hover {
-  background-color: #fff;
-  color: #009fc9;
 }
 
 /* === FOOTER SECTION STYLES === */
