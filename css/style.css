@@ -241,3 +241,12 @@ a {
   background-color: #fff;
   color: #009fc9;
 }
+
+/* === FOOTER SECTION STYLES === */
+
+.footer__text {
+  color: #e5e7eb;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
