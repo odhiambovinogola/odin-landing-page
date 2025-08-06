@@ -209,3 +209,35 @@ a {
   font-style: normal;
   text-align: right;
 }
+
+/* === CTA SECTION STYLES === */
+
+.cta {
+  padding-block: 4rem;
+  background-color: #fff;
+}
+
+.cta__content {
+  background-color: #009fc9;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+}
+
+.cta__title {
+  color: #fff;
+}
+
+.cta__description {
+  color: #e5e7eb;
+}
+
+.btn--secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn--secondary:hover {
+  background-color: #fff;
+  color: #009fc9;
+}
