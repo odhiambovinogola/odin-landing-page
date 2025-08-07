@@ -20,6 +20,8 @@ View the live site here:
 
 This project replicates a modern landing page layout using only HTML and CSS. The goal was to put flexbox to the test and build a clean, structured page with semantic markup and visual hierarchy.
 
+![Screenshot of the LoopSound Landing Page](./screenshot.png)
+
 **Key Features:**
 
 - Semantic layout using `section`, `header`, `footer`, and more
@@ -59,7 +61,6 @@ To view or edit locally:
 
    ```bash
    git clone https://github.com/odhiambovinogola/odin-landing-page.git
-
    ```
 
 2. Open index.html
